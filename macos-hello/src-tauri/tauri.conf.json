@@ -1,0 +1,50 @@
+{
+  "build": {
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "macOS Hello",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "window": {
+        "startDragging": true
+      },
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": true,
+        "title": "macOS Hello",
+        "width": 800,
+        "height": 600,
+        "transparent": true,
+        "decorations": false
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.tauri.dev",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    }
+  }
+}

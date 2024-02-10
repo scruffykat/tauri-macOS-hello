@@ -1,0 +1,38 @@
+:root, html, body {
+  background: transparent;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.grab-bar { /* Scrapped, Entire window is now a 'grab bar' */
+  position: fixed;
+  width: 100%;
+  height: 42px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+.hello {
+  pointer-events: none;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
