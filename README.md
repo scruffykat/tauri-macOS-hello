@@ -1,4 +1,4 @@
-![Banner](./github/hello_banner.png)
+![Banner](./github/new_hello_banner.png)
 
 # Tauri macOS Hello
 A basic Tauri app that mimics Apple's iconic 'Hello' text. Personal experiment project.
